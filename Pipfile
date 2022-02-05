@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "~=0.19"
+py-cord = "==2.0.0b1"
+inquirer = "~=2.9"
+pyfiglet = "~=0.8"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.10"
